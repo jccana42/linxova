@@ -1,0 +1,78 @@
+POLÍTICA DE PRIVACIDAD DE LINXOVA
+
+Última actualización: 20 de agosto de 2026
+
+Linxova es un videojuego desarrollado y publicado por JCLabs. Esta
+Política de Privacidad explica cómo se trata la información de los
+usuarios que utilizan las funciones de Google Play Games en Linxova.
+
+1.  INICIO DE SESIÓN CON GOOGLE PLAY GAMES
+
+Linxova puede utilizar Google Play Games Services para permitir al
+usuario iniciar sesión con su cuenta de Google Play Games y acceder a
+funciones relacionadas con el juego.
+
+Cuando el usuario inicia sesión, Linxova puede recibir de Google Play
+Games información básica asociada al perfil de jugador, como el
+identificador del jugador, nombre visible, avatar y datos relacionados
+con las funciones de Play Games que se utilicen en el juego.
+
+Linxova no recibe ni almacena la contraseña de la cuenta de Google del
+usuario.
+
+2.  FINALIDAD DE LOS DATOS
+
+Los datos obtenidos mediante Google Play Games se utilizan únicamente
+para proporcionar y mejorar funciones del juego, como identificar al
+jugador y, cuando estén disponibles, gestionar logros, clasificaciones,
+puntuaciones u otras funciones de Google Play Games.
+
+No utilizamos la información obtenida mediante Google Play Games para
+vender datos personales.
+
+3.  SERVICIOS DE TERCEROS
+
+El inicio de sesión y las funciones de Google Play Games son
+proporcionados por Google. El tratamiento de información realizado
+directamente por Google está sujeto a las políticas y condiciones de
+Google correspondientes.
+
+4.  CONSERVACIÓN Y SEGURIDAD
+
+Linxova procura limitar el tratamiento de datos a la información
+necesaria para ofrecer las funciones del juego. Cuando se almacenen
+datos asociados al jugador, se conservarán únicamente durante el tiempo
+necesario para proporcionar dichas funciones o cumplir obligaciones
+legales aplicables.
+
+5.  MENORES
+
+Linxova no pretende recopilar conscientemente información personal de
+menores al margen de los mecanismos y servicios proporcionados por
+Google Play y Google Play Games. El uso del juego y de estos servicios
+está sujeto también a los requisitos de edad, controles parentales y
+políticas aplicables de Google.
+
+6.  DERECHOS Y SOLICITUDES DEL USUARIO
+
+Los usuarios pueden gestionar determinados aspectos de su cuenta y de
+Google Play Games desde los servicios y ajustes proporcionados por
+Google.
+
+Para consultas relacionadas específicamente con los datos tratados
+directamente por Linxova, el usuario puede contactar con JCLabs mediante
+la dirección de contacto indicada en la ficha de Linxova en Google Play.
+
+7.  CAMBIOS EN ESTA POLÍTICA
+
+Esta Política de Privacidad puede actualizarse si se incorporan nuevas
+funciones, servicios o cambios en el tratamiento de datos. La fecha de
+la última actualización se indicará al comienzo de este documento.
+
+8.  CONTACTO
+
+Responsable/desarrollador: JCLabs Aplicación: Linxova
+
+Para cuestiones de privacidad relacionadas con Linxova, utilice la
+dirección de contacto del desarrollador publicada en la ficha de la
+aplicación en Google Play.
