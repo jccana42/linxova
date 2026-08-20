@@ -1,0 +1,110 @@
+POLÍTICA DE PRIVACIDAD DE LINXOVA
+
+Última actualización: 20 de agosto de 2026
+
+Linxova es un videojuego desarrollado y publicado por JCLabs. Esta
+Política de Privacidad describe el tratamiento de la información
+relacionada con el uso de Linxova y de los servicios de terceros
+integrados en el juego.
+
+1.  GOOGLE PLAY GAMES SERVICES
+
+Linxova puede utilizar Google Play Games Services para ofrecer funciones
+como el inicio de sesión del jugador y, cuando estén disponibles,
+clasificaciones, logros, puntuaciones y otras funciones relacionadas con
+el juego.
+
+Al utilizar Google Play Games Services, Linxova puede acceder a
+información básica del perfil de jugador proporcionada por Google, como
+el identificador de jugador, nombre visible, avatar y datos necesarios
+para las funciones de Play Games utilizadas por el juego.
+
+Linxova no recibe ni almacena la contraseña de la cuenta de Google del
+usuario.
+
+2.  FINALIDAD DEL TRATAMIENTO
+
+La información obtenida mediante Google Play Games se utiliza únicamente
+para proporcionar las funciones del juego, identificar al jugador,
+gestionar su participación en las funciones de Play Games y mejorar la
+experiencia de juego.
+
+JCLabs no vende la información personal de los usuarios.
+
+3.  PUBLICIDAD
+
+Linxova puede incorporar en futuras versiones servicios publicitarios
+como Google AdMob. Estos servicios pueden utilizar identificadores del
+dispositivo, información técnica y otros datos necesarios para mostrar,
+medir y gestionar anuncios de acuerdo con las políticas y opciones de
+privacidad de Google.
+
+Cuando estas funciones estén activas, esta Política de Privacidad podrá
+actualizarse para reflejar con mayor detalle el tratamiento de datos
+asociado a la publicidad.
+
+4.  SERVICIOS DE TERCEROS
+
+Linxova utiliza o puede utilizar servicios proporcionados por Google,
+incluyendo Google Play y Google Play Games Services.
+
+El tratamiento de información realizado directamente por dichos
+servicios está sujeto a las políticas de privacidad y condiciones de
+Google.
+
+5.  CONSERVACIÓN DE DATOS
+
+JCLabs procura limitar el tratamiento de datos a la información
+necesaria para proporcionar las funciones de Linxova.
+
+Cuando Linxova almacene información asociada al jugador, esta se
+conservará únicamente durante el tiempo necesario para proporcionar las
+funciones correspondientes o para cumplir las obligaciones legales
+aplicables.
+
+6.  SEGURIDAD
+
+Se adoptan medidas razonables para reducir el riesgo de acceso,
+modificación, divulgación o pérdida no autorizada de la información
+tratada directamente por Linxova.
+
+No obstante, ningún sistema electrónico de transmisión o almacenamiento
+de información puede garantizar una seguridad absoluta.
+
+7.  MENORES
+
+Linxova no pretende recopilar conscientemente información personal de
+menores fuera de los mecanismos proporcionados por Google Play y los
+servicios de Google utilizados por la aplicación.
+
+El acceso y uso de Google Play, Google Play Games y otros servicios de
+Google está sujeto a los requisitos de edad, controles parentales y
+políticas correspondientes de Google.
+
+8.  DERECHOS DEL USUARIO
+
+Los usuarios pueden gestionar determinados datos, permisos y funciones
+relacionados con su cuenta de Google y Google Play Games mediante las
+herramientas y ajustes proporcionados por Google.
+
+Para cuestiones relacionadas específicamente con datos tratados
+directamente por Linxova, el usuario puede contactar con JCLabs mediante
+la dirección de contacto publicada en la ficha de Linxova en Google
+Play.
+
+9.  CAMBIOS EN ESTA POLÍTICA
+
+Esta Política de Privacidad podrá modificarse cuando Linxova incorpore
+nuevas funciones o servicios, o cuando cambien los requisitos legales o
+técnicos aplicables.
+
+La fecha de la última actualización aparecerá al principio de este
+documento.
+
+10. CONTACTO
+
+Desarrollador: JCLabs Aplicación: Linxova
+
+Para consultas relacionadas con la privacidad de Linxova, puede
+utilizarse la dirección de correo electrónico de contacto del
+desarrollador publicada en la ficha oficial de Linxova en Google Play.
