@@ -1,0 +1,156 @@
+CONDICIONES DEL SERVICIO DE LINXOVA
+
+Última actualización: 20 de agosto de 2026
+
+Estas Condiciones del Servicio regulan el acceso y uso de Linxova, un
+videojuego desarrollado y publicado por JCLabs.
+
+Al descargar, instalar, acceder o utilizar Linxova, el usuario acepta
+estas condiciones. Si no está de acuerdo con ellas, deberá dejar de
+utilizar el juego.
+
+1.  USO DEL JUEGO
+
+Linxova se proporciona para uso personal y de entretenimiento.
+
+El usuario se compromete a utilizar el juego de forma lícita y a no
+realizar actividades destinadas a alterar, interferir o perjudicar el
+funcionamiento de Linxova, sus servicios o los servicios de terceros
+integrados en la aplicación.
+
+2.  GOOGLE PLAY Y GOOGLE PLAY GAMES
+
+Linxova puede utilizar servicios proporcionados por Google, incluyendo
+Google Play y Google Play Games Services.
+
+El uso de dichos servicios puede estar sujeto adicionalmente a las
+condiciones, políticas y requisitos establecidos por Google.
+
+Algunas funciones de Linxova pueden requerir una cuenta de Google Play
+Games o una conexión a Internet.
+
+JCLabs no controla la disponibilidad permanente de los servicios
+proporcionados por Google.
+
+3.  CUENTA Y PERFIL DE JUGADOR
+
+Cuando el usuario utilice Google Play Games, determinadas funciones de
+Linxova podrán asociarse a su perfil de jugador.
+
+El usuario es responsable del uso de su propia cuenta de Google y de
+mantener adecuadamente protegidas sus credenciales.
+
+JCLabs nunca solicitará al usuario la contraseña de su cuenta de Google.
+
+4.  PUNTUACIONES, CLASIFICACIONES Y LOGROS
+
+Linxova puede incluir puntuaciones, clasificaciones, logros u otras
+funciones competitivas mediante Google Play Games u otros servicios.
+
+JCLabs podrá adoptar medidas razonables para preservar la integridad de
+estas funciones si detecta manipulación de puntuaciones, automatización,
+explotación de errores, modificación no autorizada del juego u otras
+prácticas que proporcionen una ventaja injusta.
+
+5.  PUBLICIDAD
+
+Linxova puede mostrar publicidad mediante servicios de terceros, como
+Google AdMob.
+
+La disponibilidad, frecuencia y formato de los anuncios pueden cambiar
+entre versiones del juego.
+
+Determinados anuncios pueden ofrecer recompensas opcionales dentro del
+juego. Cuando exista esta función, la recompensa se concederá conforme a
+las reglas indicadas en el propio juego y después de cumplirse las
+condiciones necesarias para obtenerla.
+
+6.  ACTUALIZACIONES Y CAMBIOS
+
+Linxova puede recibir actualizaciones destinadas a añadir funciones,
+modificar contenido, corregir errores, ajustar la dificultad, mejorar el
+rendimiento o adaptar el juego a nuevos requisitos técnicos o legales.
+
+JCLabs se reserva el derecho a modificar, añadir o retirar
+características del juego cuando sea necesario.
+
+7.  DISPONIBILIDAD
+
+Se intentará mantener Linxova disponible y funcionando correctamente,
+pero no se garantiza que el juego o sus servicios estén disponibles de
+forma ininterrumpida o libres de errores.
+
+Algunas funciones pueden verse temporalmente afectadas por
+mantenimiento, problemas técnicos, actualizaciones, cambios en Google
+Play, Google Play Games, servicios publicitarios u otros servicios
+externos.
+
+8.  PROPIEDAD INTELECTUAL
+
+Linxova, incluyendo su nombre, diseño, gráficos, código, mecánicas
+originales, textos, elementos audiovisuales y demás contenido propio,
+pertenece a JCLabs o se utiliza bajo las licencias correspondientes.
+
+Estas condiciones no transfieren al usuario ningún derecho de propiedad
+sobre Linxova.
+
+No se permite copiar, redistribuir, vender o explotar comercialmente
+contenido propio de Linxova salvo autorización expresa o cuando la
+legislación aplicable lo permita.
+
+9.  CONDUCTAS NO PERMITIDAS
+
+No está permitido utilizar Linxova para realizar actividades ilegales ni
+intentar alterar de forma no autorizada el funcionamiento del juego.
+
+Esto incluye, cuando corresponda, la manipulación deliberada de
+puntuaciones o clasificaciones, la explotación abusiva de errores y el
+intento de interferir con los servicios utilizados por el juego.
+
+10. PRIVACIDAD
+
+El tratamiento de información relacionado con Linxova se describe en la
+Política de Privacidad del juego.
+
+El uso de servicios de Google también está sujeto a las políticas de
+privacidad y condiciones aplicables de Google.
+
+11. LIMITACIÓN DE RESPONSABILIDAD
+
+Linxova se proporciona como producto de entretenimiento.
+
+En la medida permitida por la legislación aplicable, JCLabs no será
+responsable de interrupciones o problemas derivados de servicios
+externos, dispositivos incompatibles, modificaciones no autorizadas del
+software, pérdida de conectividad u otras circunstancias fuera de su
+control razonable.
+
+Nada de lo establecido en estas condiciones limita los derechos que
+correspondan al usuario conforme a la legislación de protección de
+consumidores que resulte aplicable.
+
+12. FINALIZACIÓN DEL USO
+
+El usuario puede dejar de utilizar Linxova y desinstalar la aplicación
+en cualquier momento.
+
+JCLabs podrá limitar determinadas funciones cuando resulte necesario
+para proteger el juego, sus usuarios, sus servicios o para cumplir
+obligaciones legales y políticas de las plataformas utilizadas.
+
+13. CAMBIOS EN ESTAS CONDICIONES
+
+Estas Condiciones del Servicio podrán actualizarse para reflejar cambios
+en Linxova, en los servicios utilizados o en los requisitos legales
+aplicables.
+
+La fecha de la última actualización aparecerá al principio del
+documento.
+
+14. CONTACTO
+
+Desarrollador: JCLabs Aplicación: Linxova
+
+Para consultas relacionadas con estas Condiciones del Servicio, puede
+utilizarse la dirección de contacto del desarrollador publicada en la
+ficha oficial de Linxova en Google Play.
