@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Roadmap de Linxova</title>
+  <style>
+    :root{
+      --bg:#0b1020;
+      --card:#131a2d;
+      --card2:#192238;
+      --text:#eef3ff;
+      --muted:#aeb9d6;
+      --accent:#ffd232;
+      --green:#47d16c;
+      --orange:#ffad42;
+      --blue:#6cb8ff;
+      --border:#2a3655;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Arial,Helvetica,sans-serif;
+      background:linear-gradient(180deg,#090d18,#10182a);
+      color:var(--text);
+      line-height:1.6;
+    }
+    .wrap{
+      max-width:1100px;
+      margin:0 auto;
+      padding:40px 22px 80px;
+    }
+    header{
+      background:linear-gradient(135deg,#17213b,#0f1528);
+      border:1px solid var(--border);
+      border-radius:20px;
+      padding:32px;
+      margin-bottom:28px;
+      box-shadow:0 18px 40px rgba(0,0,0,.25);
+    }
+    h1,h2,h3{margin-top:0}
+    h1{
+      font-size:42px;
+      margin-bottom:8px;
+      color:var(--accent);
+      letter-spacing:.5px;
+    }
+    h2{
+      margin-top:44px;
+      padding-bottom:10px;
+      border-bottom:1px solid var(--border);
+      color:#fff;
+    }
+    h3{color:#dfe8ff}
+    p,li{color:var(--text)}
+    .muted{color:var(--muted)}
+    .phase{
+      background:var(--card);
+      border:1px solid var(--border);
+      border-radius:16px;
+      padding:24px;
+      margin:20px 0;
+    }
+    .phase.done{border-left:5px solid var(--green)}
+    .phase.next{border-left:5px solid var(--orange)}
+    .phase.idea{border-left:5px solid var(--blue)}
+    .tag{
+      display:inline-block;
+      padding:4px 9px;
+      border-radius:999px;
+      font-size:12px;
+      font-weight:bold;
+      margin-left:8px;
+      vertical-align:middle;
+    }
+    .doneTag{background:rgba(71,209,108,.15);color:#7cf09b}
+    .nextTag{background:rgba(255,173,66,.15);color:#ffc06d}
+    .ideaTag{background:rgba(108,184,255,.15);color:#9acbff}
+    table{
+      width:100%;
+      border-collapse:collapse;
+      margin:16px 0 8px;
+      background:var(--card2);
+      border-radius:12px;
+      overflow:hidden;
+    }
+    th,td{
+      padding:12px 14px;
+      border-bottom:1px solid var(--border);
+      text-align:left;
+    }
+    th{color:var(--accent)}
+    code{
+      background:#0a0f1d;
+      border:1px solid #26324e;
+      padding:2px 6px;
+      border-radius:6px;
+      color:#dce7ff;
+    }
+    pre{
+      background:#080c16;
+      border:1px solid var(--border);
+      padding:20px;
+      border-radius:14px;
+      overflow:auto;
+      color:#dfe8ff;
+    }
+    .progress{
+      display:grid;
+      grid-template-columns:220px 1fr 70px;
+      gap:10px;
+      align-items:center;
+      margin:10px 0;
+    }
+    .bar{
+      height:10px;
+      background:#222c45;
+      border-radius:999px;
+      overflow:hidden;
+    }
+    .bar span{
+      display:block;
+      height:100%;
+      background:linear-gradient(90deg,#5ca9ff,#8f6cff);
+    }
+    ul{padding-left:22px}
+    .footer{
+      margin-top:50px;
+      padding:22px;
+      background:var(--card);
+      border-radius:16px;
+      border:1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>LINXOVA — Roadmap de desarrollo</h1>
+    <p class="muted"><strong>Estado:</strong> versión 0.8.9 enviada a producción · 15 de septiembre de 2026</p>
+    <p>Linxova ha evolucionado desde un prototipo sencillo de cadenas hasta un juego Android publicado con progresión infinita, logros, Trophy Room, sets visuales y una base preparada para llegar a la versión 1.0.</p>
+  </header>
+
+  <section class="phase done">
+    <h2>FASE 1 — Concepto inicial <span class="tag doneTag">COMPLETADA</span></h2>
+    <h3>Definición del juego</h3>
+    <ul>
+      <li>Juego de puzles sencillo en GameMaker.</li>
+      <li>Diseñado especialmente para Android.</li>
+      <li>Partidas rápidas y controles táctiles.</li>
+      <li>Tablero de fichas y cadenas adyacentes.</li>
+      <li>Progresión potencialmente infinita.</li>
+      <li>Niveles generados automáticamente.</li>
+      <li>Dificultad creciente sin diseñar cientos de niveles manualmente.</li>
+    </ul>
+    <h3>Identidad</h3>
+    <p>Nombres iniciales: <strong>Nexova → Linkova → Linxova</strong>. Nombre final: <strong>LINXOVA</strong>. Identidad del desarrollador: <strong>JCLabs</strong>.</p>
+  </section>
+
+  <section class="phase done">
+    <h2>FASE 2 — Prototipo jugable <span class="tag doneTag">COMPLETADA</span></h2>
+    <h3>Tablero</h3>
+    <ul>
+      <li>11 columnas × 5 filas.</li>
+      <li><code>cell_size = 140</code></li>
+      <li><code>gap = 22</code></li>
+      <li><code>board_y = 170</code></li>
+      <li>Room 1920 × 1080.</li>
+      <li>Orientación horizontal.</li>
+    </ul>
+    <h3>Sistema de fichas</h3>
+    <ul>
+      <li>Generación automática de fichas.</li>
+      <li>Primeros niveles con valores 1–3.</li>
+      <li>Rango máximo progresivo.</li>
+      <li><code>start_max</code> limitado entre 3 y 5.</li>
+    </ul>
+  </section>
+
+  <section class="phase done">
+    <h2>FASE 3 — Mecánica principal de cadenas <span class="tag doneTag">COMPLETADA</span></h2>
+    <ul>
+      <li>Selección de fichas consecutivas.</li>
+      <li>Adyacencia horizontal, vertical y diagonal.</li>
+      <li>Validación de cadena.</li>
+      <li>Control de conexiones inválidas.</li>
+      <li>Almacenamiento de fichas seleccionadas.</li>
+      <li>Resolución de cadena y actualización del tablero.</li>
+    </ul>
+  </section>
+
+  <section class="phase done">
+    <h2>FASE 4 — Sistema de niveles infinito <span class="tag doneTag">COMPLETADA</span></h2>
+    <h3>LEVEL</h3>
+    <ul>
+      <li>Detección de objetivo conseguido.</li>
+      <li>Mensaje <strong>LEVEL COMPLETE!</strong>.</li>
+      <li>Transición aproximada de 0,3 segundos.</li>
+      <li>Generación de nuevo tablero.</li>
+      <li>Incremento de nivel y recálculo de condiciones.</li>
+    </ul>
+    <h3>TARGET</h3>
+    <p>Target inicial: <strong>4</strong></p>
+    <p><code>target = 4 + floor((level - 1) / 3)</code></p>
+    <h3>MOVES</h3>
+    <p>Base: <strong>20 movimientos</strong></p>
+    <p><code>20 + floor(level / 3)</code></p>
+  </section>
+
+  <section class="phase done">
+    <h2>FASE 5 — Dificultad progresiva <span class="tag doneTag">COMPLETADA</span></h2>
+    <h3>Longitud mínima de cadena</h3>
+    <table>
+      <tr><th>Nivel</th><th>Cadena mínima</th></tr>
+      <tr><td>1–20</td><td>2</td></tr>
+      <tr><td>21–40</td><td>3</td></tr>
+      <tr><td>41–60</td><td>4</td></tr>
+      <tr><td>61–80</td><td>5</td></tr>
+    </table>
+    <h3>Generación progresiva de piezas</h3>
+    <ul>
+      <li>La generación dejó de ser un random simple.</li>
+      <li>Se tienen en cuenta nivel, target, rango útil y dificultad.</li>
+      <li>En la versión 0.8.9 se volvió a mejorar la lógica de aparición de piezas.</li>
+    </ul>
+  </section>
+
+  <section class="phase done">
+    <h2>FASE 6 — HUD y presentación <span class="tag doneTag">COMPLETADA</span></h2>
+    <ul>
+      <li>HUD con LEVEL, MOVES, TARGET y SCORE.</li>
+      <li>Color principal RGB (255, 210, 50).</li>
+      <li>Mejoras de tamaño, legibilidad, alineación y presencia visual.</li>
+      <li>Cartel de mínimo recolocado.</li>
+      <li>Target con mayor peso visual.</li>
+    </ul>
+    <h3>Tipografías</h3>
+    <ul>
+      <li><strong>Oxanium</strong> para textos y etiquetas.</li>
+      <li><strong>Chewy</strong> para números y elementos más juguetones.</li>
+    </ul>
+  </section>
+
+  <section class="phase done">
+    <h2>FASE 7 — Game feel <span class="tag doneTag">MAYORMENTE COMPLETADA</span></h2>
+    <ul>
+      <li>Escalado y animación de fichas.</li>
+      <li><code>tile_scale</code> y <code>tile_flash</code>.</li>
+      <li>Screen shake.</li>
+      <li>Partículas.</li>
+      <li>Efecto especial al conseguir TARGET.</li>
+      <li>Aumento del número, brillo y transición de nivel.</li>
+    </ul>
+  </section>
+
+  <section class="phase done">
+    <h2>FASE 8 — Fondo y estética <span class="tag doneTag">COMPLETADA</span></h2>
+    <ul>
+      <li>Fondo animado con estrellas, galaxias, partículas y profundidad.</li>
+      <li>Fondo de menú basado en líneas curvas multicolor.</li>
+    </ul>
+  </section>
+
+  <section class="phase done">
+    <h2>FASE 9 — Menú principal e identidad JCLabs <span class="tag doneTag">COMPLETADA</span></h2>
+    <ul>
+      <li>Splash JCLabs de unos 3 segundos.</li>
+      <li>Logo LINXOVA en parte superior.</li>
+      <li>JCLabs en parte inferior.</li>
+      <li>START, TROPHY ROOM y QUIT.</li>
+      <li>Botones con identidad cromática propia.</li>
+    </ul>
+  </section>
+
+  <section class="phase done">
+    <h2>FASE 10 — Pausa y navegación <span class="tag doneTag">COMPLETADA</span></h2>
+    <ul>
+      <li>Sistema de pausa.</li>
+      <li>Botón Back.</li>
+      <li>Transiciones entre rooms.</li>
+      <li>Flujos de entrada y salida.</li>
+    </ul>
+  </section>
+
+  <section class="phase done">
+    <h2>FASE 11 — Sets visuales de fichas <span class="tag doneTag">EN DESARROLLO AVANZADO</span></h2>
+    <h3>Sports Balls</h3>
+    <p>Set de 20 fichas deportivas, preparado para funcionar alrededor de 132 × 132 px.</p>
+    <p>Incluye fútbol, baloncesto, tenis, béisbol, voleibol, billar, golf, ping pong, balonmano, waterpolo, cricket, softball, dodgeball, bowling, rugby, fútbol americano, lacrosse, hockey, sepak takraw y petanca.</p>
+    <h3>Classic Cartoon / Horror</h3>
+    <ul>
+      <li>Estética inspirada en cartoons de los años 20/30.</li>
+      <li>Reinterpretaciones propias para evitar conflictos de derechos.</li>
+      <li>Sustituciones de personajes problemáticos.</li>
+      <li>Incorporación de personajes de terror, como una momia.</li>
+    </ul>
+  </section>
+
+  <section class="phase done">
+    <h2>FASE 12 — Trophy Room y logros <span class="tag doneTag">COMPLETADA / PULIENDO</span></h2>
+    <p>Se creó <code>OBJ_TROPHY_ROOM</code> con una cuadrícula 5 × 5, dando capacidad visual para 25 logros.</p>
+    <ul>
+      <li>Botón BACK.</li>
+      <li>Escalado de iconos.</li>
+      <li>Animaciones de entrada y salida.</li>
+      <li>Control de nuevos logros desbloqueados.</li>
+      <li>Persistencia en <code>linxova_save.ini</code>.</li>
+      <li>Gestión del estado <code>new_unlock</code>.</li>
+    </ul>
+    <p>Último ajuste destacado: <strong>Rising Star → requisito 12</strong>.</p>
+  </section>
+
+  <section class="phase done">
+    <h2>FASE 13 — Explicación de logros <span class="tag doneTag">NUEVO EN 0.8.9</span></h2>
+    <ul>
+      <li>Pantalla / sistema de explicación de logros.</li>
+      <li>El jugador puede consultar qué necesita hacer.</li>
+      <li>La Trophy Room pasa de ser una colección visual a una herramienta de metaprogresión.</li>
+    </ul>
+  </section>
+
+  <section class="phase done">
+    <h2>FASE 14 — Guardado y persistencia <span class="tag doneTag">COMPLETADA</span></h2>
+    <ul>
+      <li>Guardado mediante INI.</li>
+      <li>Persistencia de progreso y logros.</li>
+      <li>Estado de Trophy Room.</li>
+      <li>Nuevos desbloqueos.</li>
+    </ul>
+  </section>
+
+  <section class="phase done">
+    <h2>FASE 15 — Android y Google Play <span class="tag doneTag">COMPLETADA</span></h2>
+    <ul>
+      <li>Build Android.</li>
+      <li>Preparación para Google Play.</li>
+      <li>Ficha, iconografía y textos promocionales.</li>
+      <li>Versionado.</li>
+      <li>Promoción externa, incluyendo Reddit.</li>
+    </ul>
+  </section>
+
+  <section class="phase done">
+    <h2>FASE 16 — Versión 0.8.9 <span class="tag doneTag">EN PRODUCCIÓN</span></h2>
+    <h3>Novedades principales</h3>
+    <ul>
+      <li><strong>Nuevos logros</strong>.</li>
+      <li><strong>Nuevo cálculo de aparición de piezas</strong>.</li>
+      <li><strong>Pantalla de explicación de logros</strong>.</li>
+      <li>Ajuste de requisitos, incluyendo Rising Star a 12.</li>
+    </ul>
+  </section>
+
+  <h2>Estado general</h2>
+  <div class="progress"><span>Concepto</span><div class="bar"><span style="width:100%"></span></div><strong>100%</strong></div>
+  <div class="progress"><span>Core gameplay</span><div class="bar"><span style="width:100%"></span></div><strong>100%</strong></div>
+  <div class="progress"><span>Generación infinita</span><div class="bar"><span style="width:100%"></span></div><strong>100%</strong></div>
+  <div class="progress"><span>HUD</span><div class="bar"><span style="width:100%"></span></div><strong>100%</strong></div>
+  <div class="progress"><span>Game feel</span><div class="bar"><span style="width:90%"></span></div><strong>90%</strong></div>
+  <div class="progress"><span>Menús</span><div class="bar"><span style="width:100%"></span></div><strong>100%</strong></div>
+  <div class="progress"><span>Trophy Room</span><div class="bar"><span style="width:90%"></span></div><strong>90%</strong></div>
+  <div class="progress"><span>Achievements</span><div class="bar"><span style="width:90%"></span></div><strong>90%</strong></div>
+  <div class="progress"><span>Sets de fichas</span><div class="bar"><span style="width:80%"></span></div><strong>80%</strong></div>
+  <div class="progress"><span>Balance</span><div class="bar"><span style="width:80%"></span></div><strong>80%</strong></div>
+  <div class="progress"><span>Android / Play</span><div class="bar"><span style="width:100%"></span></div><strong>100%</strong></div>
+  <div class="progress"><span>Pulido para 1.0</span><div class="bar"><span style="width:70%"></span></div><strong>70%</strong></div>
+
+  <section class="phase next">
+    <h2>FASE 17 — 0.9.x: estabilización y balance <span class="tag nextTag">PENDIENTE</span></h2>
+    <ul>
+      <li>Revisar el nuevo algoritmo de generación de piezas.</li>
+      <li>Analizar frecuencias de números y fichas útiles.</li>
+      <li>Detectar niveles demasiado fáciles o injustos.</li>
+      <li>Reducir la dependencia del azar.</li>
+      <li>Comprobar interacción entre target, moves y min_chain.</li>
+    </ul>
+  </section>
+
+  <section class="phase next">
+    <h2>FASE 18 — Test de progresión larga <span class="tag nextTag">PENDIENTE</span></h2>
+    <ul>
+      <li>Test niveles 1–20.</li>
+      <li>Test niveles 21–40.</li>
+      <li>Test niveles 41–60.</li>
+      <li>Test niveles 61–80.</li>
+      <li>Test 80+.</li>
+      <li>Comprobar que las fórmulas no se degradan en niveles muy altos.</li>
+    </ul>
+  </section>
+
+  <section class="phase next">
+    <h2>FASE 19 — Auditoría completa de achievements <span class="tag nextTag">PENDIENTE</span></h2>
+    <ul>
+      <li>Nombre.</li>
+      <li>Condición.</li>
+      <li>Contador.</li>
+      <li>Desbloqueo.</li>
+      <li>Guardado.</li>
+      <li>Icono.</li>
+      <li>Descripción.</li>
+      <li>Persistencia y coherencia con el código real.</li>
+    </ul>
+  </section>
+
+  <section class="phase next">
+    <h2>FASE 20 — Completar Trophy Room <span class="tag nextTag">PENDIENTE</span></h2>
+    <p>Objetivo recomendado para 1.0: <strong>25 achievements completamente definidos</strong>.</p>
+    <ul>
+      <li>Progresión.</li>
+      <li>Puntuación.</li>
+      <li>Cadenas.</li>
+      <li>Niveles.</li>
+      <li>Habilidad.</li>
+      <li>Situaciones especiales.</li>
+      <li>Uso de sets.</li>
+      <li>Secretos.</li>
+    </ul>
+  </section>
+
+  <section class="phase next">
+    <h2>FASE 21 — Cerrar sets de fichas <span class="tag nextTag">PENDIENTE</span></h2>
+    <ul>
+      <li>Definir número final de sets para 1.0.</li>
+      <li>Normalizar resolución y área segura.</li>
+      <li>Comprobar legibilidad a 132 × 132.</li>
+      <li>Homogeneizar estilo visual.</li>
+      <li>Revisar derechos de autor.</li>
+    </ul>
+  </section>
+
+  <section class="phase next">
+    <h2>FASE 22 — Pulido visual final <span class="tag nextTag">PENDIENTE</span></h2>
+    <ul>
+      <li>Alineación y márgenes.</li>
+      <li>Tamaños y escalado.</li>
+      <li>Textos y transiciones.</li>
+      <li>Partículas y shake.</li>
+      <li>Estados pressed.</li>
+      <li>Legibilidad general.</li>
+    </ul>
+  </section>
+
+  <section class="phase next">
+    <h2>FASE 23 — Audio <span class="tag nextTag">PENDIENTE</span></h2>
+    <ul>
+      <li>Selección de ficha.</li>
+      <li>Añadir ficha a cadena.</li>
+      <li>Cancelar.</li>
+      <li>Completar cadena.</li>
+      <li>Combinación buena / excepcional.</li>
+      <li>Target alcanzado.</li>
+      <li>Level Complete.</li>
+      <li>Logro desbloqueado.</li>
+      <li>Botones.</li>
+      <li>Música para menú, gameplay y Trophy Room.</li>
+    </ul>
+  </section>
+
+  <section class="phase next">
+    <h2>FASE 24 — UX para nuevos jugadores <span class="tag nextTag">PENDIENTE</span></h2>
+    <p>Mensaje esencial que el juego debe transmitir rápidamente:</p>
+    <p><strong>“Une fichas → crea valores mayores → alcanza TARGET antes de quedarte sin MOVES.”</strong></p>
+    <ul>
+      <li>Explicar selección.</li>
+      <li>Explicar diagonales.</li>
+      <li>Explicar TARGET.</li>
+      <li>Explicar MOVES.</li>
+      <li>Explicar cadena mínima.</li>
+      <li>Tutorial corto y visual.</li>
+    </ul>
+  </section>
+
+  <section class="phase next">
+    <h2>FASE 25 — Testing Android <span class="tag nextTag">PENDIENTE</span></h2>
+    <ul>
+      <li>Relaciones de aspecto.</li>
+      <li>Resoluciones.</li>
+      <li>Rendimiento.</li>
+      <li>Consumo.</li>
+      <li>Carga.</li>
+      <li>Minimizar y volver.</li>
+      <li>Botón Atrás de Android.</li>
+      <li>Persistencia del INI.</li>
+      <li>Touch y selección rápida.</li>
+    </ul>
+  </section>
+
+  <section class="phase next">
+    <h2>FASE 26 — Linxova 1.0 <span class="tag nextTag">OBJETIVO</span></h2>
+    <p>La versión 1.0 debería incluir:</p>
+    <ul>
+      <li>Core infinito estable.</li>
+      <li>Dificultad equilibrada.</li>
+      <li>Achievements completos.</li>
+      <li>Trophy Room terminada.</li>
+      <li>Sets definitivos.</li>
+      <li>Tutorial.</li>
+      <li>Audio.</li>
+      <li>Guardado fiable.</li>
+      <li>Interfaz pulida.</li>
+    </ul>
+  </section>
+
+  <section class="phase idea">
+    <h2>POST-LAUNCH <span class="tag ideaTag">IDEAS FUTURAS</span></h2>
+    <h3>1.1 — Content Update</h3>
+    <p>Nuevos sets: deportes, monstruos, retro, comida, animales, espacio, Halloween, Navidad...</p>
+    <h3>1.2 — Achievements Update</h3>
+    <p>Más logros, retos especiales y achievements secretos.</p>
+    <h3>1.3 — Estadísticas</h3>
+    <ul>
+      <li>Nivel máximo.</li>
+      <li>Puntuación máxima.</li>
+      <li>Cadenas realizadas.</li>
+      <li>Cadena más larga.</li>
+      <li>Fichas combinadas.</li>
+      <li>Partidas.</li>
+      <li>Tiempo jugado.</li>
+      <li>Targets alcanzados.</li>
+    </ul>
+    <h3>1.4 — Retos</h3>
+    <ul>
+      <li>Daily Challenge.</li>
+      <li>Retos con reglas especiales.</li>
+      <li>Eventos temporales.</li>
+    </ul>
+  </section>
+
+  <h2>Mapa general</h2>
+  <pre>IDEA
+ │
+ ├── Concepto de cadenas                         ✅
+ ├── Nexova / Linkova → LINXOVA                 ✅
+ │
+ ▼
+PROTOTIPO
+ │
+ ├── Tablero 11 × 5                             ✅
+ ├── Selección y adyacencia                     ✅
+ ├── Cadenas                                    ✅
+ ├── Combinaciones                              ✅
+ │
+ ▼
+PROGRESIÓN
+ │
+ ├── LEVEL                                      ✅
+ ├── MOVES                                      ✅
+ ├── TARGET                                     ✅
+ ├── MIN CHAIN                                  ✅
+ ├── Generación infinita                        ✅
+ │
+ ▼
+GAME FEEL
+ │
+ ├── Animaciones                                ✅
+ ├── Flash                                      ✅
+ ├── Shake                                      ✅
+ ├── Partículas                                 ✅
+ ├── Target effect                              ✅
+ └── Fondo animado                              ✅
+ │
+ ▼
+PRODUCTO
+ │
+ ├── Logo LINXOVA                               ✅
+ ├── Splash JCLabs                              ✅
+ ├── Main Menu                                  ✅
+ ├── Pausa                                      ✅
+ ├── Navegación                                 ✅
+ │
+ ▼
+METAPROGRESIÓN
+ │
+ ├── Achievements                               ✅
+ ├── Trophy Room 5 × 5                          ✅
+ ├── Persistencia                               ✅
+ ├── Nuevos achievements                        ✅
+ └── Explicación achievements                   ✅ 0.8.9
+ │
+ ▼
+CONTENIDO
+ │
+ ├── Sports Balls                               ✅
+ ├── Cartoon / Horror                           🔄
+ └── Más sets                                   🔜
+ │
+ ▼
+ANDROID
+ │
+ ├── Build                                      ✅
+ ├── Google Play                                ✅
+ └── Producción 0.8.9                           ✅
+ │
+ ▼
+0.9.x
+ │
+ ├── Balance RNG                                🔜
+ ├── Tests 1–80+                                🔜
+ ├── Auditoría achievements                     🔜
+ ├── Completar metaprogresión                   🔜
+ ├── Tutorial / onboarding                      🔜
+ ├── Audio                                      🔜
+ └── Pulido                                     🔜
+ │
+ ▼
+1.0
+ │
+ └── LINXOVA — RELEASE COMPLETO                 🎯
+ │
+ ▼
+POST-LAUNCH
+     ├── Nuevos sets                            💡
+     ├── Estadísticas                           💡
+     ├── Retos                                  💡
+     ├── Daily Challenge                        💡
+     └── Actualizaciones temáticas              💡</pre>
+
+  <div class="footer">
+    <strong>Dirección recomendada:</strong> usar la rama 0.9.x para balance, testing, audio, onboarding y pulido. Evitar grandes mecánicas nuevas hasta que el core sea estable a niveles altos. Cuando generación, progresión, guardado y achievements sean fiables, Linxova tendrá una frontera natural para convertirse en <strong>1.0</strong>.
+  </div>
+</div>
+</body>
+</html>
